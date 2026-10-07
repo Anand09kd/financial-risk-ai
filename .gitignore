@@ -1,0 +1,156 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# Virtual Environments
+# ============================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+
+# ============================================
+# Environment Variables / Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# ML Models & Artifacts
+# ============================================
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.joblib
+models/*.onnx
+!models/.gitkeep
+
+# ============================================
+# Vector Store (RAG index)
+# ============================================
+vector_store/*
+!vector_store/.gitkeep
+
+# ============================================
+# Data (don't commit user data)
+# ============================================
+data/processed/*
+!data/processed/.gitkeep
+
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Optional: keep sample raw data, ignore rest
+data/raw/*.csv
+!data/raw/sample_financial_data.csv
+!data/raw/.gitkeep
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# Testing / Coverage
+# ============================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ============================================
+# Streamlit
+# ============================================
+.streamlit/secrets.toml
+
+# ============================================
+# FastAPI / Uvicorn
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# IDE / Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Node (if you add React frontend later)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ============================================
+# Misc
+# ============================================
+*.bak
+*.tmp
+*.orig
+.cache/
